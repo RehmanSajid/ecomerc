@@ -1,0 +1,126 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title> contact-page - Red Store</title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"><!--font styling-->
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--font awsem-->
+ </head>
+ <body>
+   <!-- <div class="header">-->
+
+    	<div class="container">
+    	<div class="navbar">
+    	<div class="logo">
+    		<img src="images/logo.png"width="125px">
+    	</div><!--end of logo-->
+    	   <nav>
+    	   	  <ul id="MenuItems">
+    	   		 <li><a href="index.html">Home</a></li>
+    	   		 <li><a href="product.html">Product</a></li>
+    	   		 <li><a href="about.html">About</a></li>
+    	   		 <li><a href="contact.html">Contact</a></li>
+	   		     <li><a href="Account.html">Account</a></li>
+    	    	</ul>
+    	   </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div><!--end of navbar-->
+    </div> <!--end of container-->
+            <!-- Content Start -->
+               <div class="contac-body">
+  <div id="para5">
+  <h1 class="workfont">
+    Feel free to contact us</h1>
+  <br />
+  <h5 class="workfont">
+    We always ready to serve you.
+  </h5>
+  <hr class="secondary">
+  <div class="row">
+  <div class="col-md-6">
+  <label class="backlabel">
+    <input class="form-control color11" type="text" placeholder="Your name">
+  </label>
+  <label class="backlabel">
+    <input  class="form-control color11" type="text" placeholder="last name">
+  </label>
+     
+  <label class="backlabel">
+    <input  class="form-control color11" type="text"  placeholder="Subject">
+  </label>
+  <label class="backlabel">
+    <input  class="form-control color12" type="text" placeholder="message">
+  </label>
+  <br />
+  <button type="button" class="btn btn-dark contactbtn" style="opacity: 0.9;">
+    Submit
+  </button>
+</div>
+  </div>
+  </div>
+</div>
+
+                       <!-----footer----->
+                     <div class="footer2">
+                   <div class="container">
+                     <div class="row">
+                       <div class="footer-col-1">
+                         <h3>Downlaod Our App</h3>
+                         <p>Download App For Android And ios Mobile Phon.</p>
+                          <div class="App-logo">
+                            <img src="images/play-store.png">
+                            <img src="images/app-store.png">
+                          </div>
+                       </div>
+                       <div class="footer-col-1">
+                         <img src="images/logo-white.png">
+                         <p>occupy the space which will later be filled with 'real' content.</p>
+                      </div> 
+                        <div class="footer-col-3">
+                         <h3>Useful Links</h3>
+                         <ul>
+                           <li>coupons</li>
+                           <li>Blog Post</li>
+                           <li>Return Policy</li>
+                           <li>Join Affiliate</li>
+                         </ul>
+                       </div>
+                       <div class="footer-col-4">
+                         <h3>Follow Us</h3>
+                         <ul>
+                           <li>Facebook</li>
+                           <li>Twitter</li>
+                           <li>Instagram</li>
+                           <li>Youtube</li>
+                         </ul>
+                       </div>
+                   </div>
+                   <hr>
+                   <p class="copyright">Design By Sajid Rehman</p>
+                 </div>
+               </div>
+                 
+                       <!---------js for toggle--------------------->
+                       <script>
+                        
+                         var MenuItems = document.getElementById("MenuItems");
+                        // MenuItems.style.height= "0px";
+                         function menutoggle() {
+                          
+                           if(MenuItems.style.height == "0px")
+                           {
+                            MenuItems.style.height = "200px";
+                           }
+                           else
+                           {
+                             MenuItems.style.height = "0px";
+                           }
+                         }
+                       </script>
+                       
+ </body>
+ </html>
