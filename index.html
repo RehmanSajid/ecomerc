@@ -9,15 +9,7 @@
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--font awsem-->
  </head>
  <body>
-  <!--<div class="col-lg-7 col-md-7">
-<div class="advanced-search">
-<button type="button" class="category-btn">All Categories</button>
-<div class="input-group">
-<input type="text" placeholder="What do you need?">
-<button type="button"><i class="ti-search"></i></button>
-</div>
-</div>
-</div>-->
+  
     <div class="header">
     	<div class="container">
     	<div class="navbar">
@@ -26,8 +18,8 @@
     	</div><!--end of logo-->
     	   <nav>
     	   	  <ul id="MenuItems">
-    	   		 <li><a href="index">Home</a></li>
-    	   		 <li><a href="product">Product</a></li>
+    	   		 <li><a href="index.html">Home</a></li>
+    	   		 <li><a href="product.html">Product</a></li>
     	   		 <li><a href="about.html">About</a></li>
     	   		 <li><a href="contact.html">Contact</a></li>
 	   		     <li><a href="Account.html">Account</a></li>
@@ -84,13 +76,21 @@
       
       </div>
     </div>
+</div>
         <!------------------------------------------- features products----------------------------------------------->
         <div class="small-container">
           <h2 class="title">Featured product</h2>
           <div class="row">
             <div class="col-4">
-              <a href="productdetail.html"><img src="images/product-1.jpg"></a>
-             <a href="productdetail.html"><h4>Red Printed T-Shirt</h4></a>
+              <a href="productdetail.html">
+
+              	<img src="images/product-1.jpg">
+
+              </a>
+
+             	<h4>Red Printed T-Shirt</h4>
+
+
                <div class="rating">
                  <i class="fa fa-star"></i>
                  <i class="fa fa-star"></i>
@@ -141,6 +141,7 @@
               <p>$50.00</p>
             </div>
           </div>
+          
           <!--------------------------------------------------- Latest products---------------------------------------------------->
              <h2 class="title">Latest Product</h2>
              <div class="row">
@@ -383,12 +384,12 @@
                        <script>
                         
                          var MenuItems = document.getElementById("MenuItems");
-                        // MenuItems.style.height= "0px";
+                         MenuItems.style.height= "0px";
                          function menutoggle() {
                           
                            if(MenuItems.style.height == "0px")
                            {
-                            MenuItems.style.height = "200px";
+                            MenuItems.style.height = "225px";
                            }
                            else
                            {
